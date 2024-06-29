@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 app.get("/api", (req, res) => {
-    res.json({"users" : ["UserOne", "UserTwo", "UserThree", "UserFour", "UserFive"]});
+    res.json({"users" : ["UserOne", "UserTwo", "UserThree", "UserFour", "UserFive","UserSix", "UserSeven", "UserEight", "UserNine", "UserTen"]});
 });
 
 app.listen(5000, () => {
