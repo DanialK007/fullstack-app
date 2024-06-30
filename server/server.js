@@ -9,6 +9,7 @@ app.get("/api", (req, res) => {
     res.json({"users" : ["UserOne", "UserTwo", "UserThree", "UserFour", "UserFive","UserSix", "UserSeven", "UserEight", "UserNine", "UserTen"]});
 });
 
+const PORT = process.env.PORT || 5000;
 app.listen(5000, () => {
     console.log("Server is running on port 5000");
 });
